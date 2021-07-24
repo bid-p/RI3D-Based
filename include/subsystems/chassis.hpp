@@ -21,6 +21,12 @@ enum transStates {
 };
 extern transStates transState;
 
+enum dmdStates {
+    in,
+    out
+};
+extern dmdStates dmdState;
+
 extern Motor chasR1, chasR2, chasR3, chasL1, chasL2, chasL3;
 
 extern pros::ADIDigitalOut transSolenoid;
